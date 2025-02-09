@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Data</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <nav>
+        <div class="logo">
+            <h1>HealthInfo</h1>
+        </div>
+        <i class="fa-solid fa-bars"></i>
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-bars"></i>Home</a></li>
+            <li><a href="health-tips.html"><i class="fa-solid fa-bars"></i>Health Tips</a></li>
+            <li><a href="Data.html"><i class="fa-solid fa-bars"></i>Data</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-bars"></i>About</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-bars"></i>Contact</a></li>
+            <li><a href="Emergencies.html"><i class="fa-solid fa-bars"></i>Emergencies</a></li>
+        </ul>
+    </nav>
+    <style>
+        nav {
+            background-color: #f8f8f8;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav .logo h1 {
+            display: inline;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            padding-top: 60px;
+            background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926');
+            background-attachment: fixed;
+            background-image: cover; 
+           /* Add padding to avoid content being hidden under the fixed nav */
+           color: white;
+           background-size: cover;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Health Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Disease</th>
+                <th>Description</th>
+                <th>Source</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>COVID-19</td>
+                <td>A respiratory illness caused by the coronavirus SARS-CoV-2.</td>
+                <td><a href="https://www.google.com/search?q=common+cold">Google</a></td>
+                <form action="https://www.google.com/search" method="get">
+                <input type="text" name="q" placeholder="Search for a disease...">
+                <button type="submit">Search</button>
+            </form>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>A chronic disease that occurs when the pancreas is no longer able to make insulin, or when the body cannot make good use of the insulin it produces.</td>
+                <td><a href="https://www.who.int/health-topics/diabetes">WHO</a></td>
+            </tr>
+            <tr>
+                <td>Malaria</td>
+                <td>A life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes.</td>
+                <td><a href="https://www.who.int/health-topics/malaria">WHO</a></td>
+            </tr>
+            <!-- Add more diseases and sources as needed -->
+        <tr>
+            <td>Hypertension</td>
+            <td>A condition in which the blood vessels have persistently raised pressure.</td>
+            <td><a href="https://www.who.int/health-topics/hypertension">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Tuberculosis</td>
+            <td>An infectious disease usually caused by Mycobacterium tuberculosis bacteria.</td>
+            <td><a href="https://www.who.int/health-topics/tuberculosis">WHO</a></td>
+        </tr>
+        <tr>
+            <td>HIV/AIDS</td>
+            <td>A spectrum of conditions caused by infection with the human immunodeficiency virus (HIV).</td>
+            <td><a href="https://www.who.int/health-topics/hiv-aids">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Influenza</td>
+            <td>A viral infection that attacks your respiratory system.</td>
+            <td><a href="https://www.who.int/health-topics/influenza">WHO</a></td>
+        <tr>
+            <td>Asthma</td>
+            <td>A condition in which your airways narrow and swell and may produce extra mucus.</td>
+            <td><a href="https://www.who.int/health-topics/asthma">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Cholera</td>
+            <td>An acute diarrhoeal disease that can kill within hours if left untreated.</td>
+            <td><a href="https://www.who.int/health-topics/cholera">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Dengue</td>
+            <td>A mosquito-borne viral infection causing a severe flu-like illness.</td>
+            <td><a href="https://www.who.int/health-topics/dengue">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Hepatitis</td>
+            <td>An inflammation of the liver caused by viral infection or other factors.</td>
+            <td><a href="https://www.who.int/health-topics/hepatitis">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Measles</td>
+            <td>A highly contagious viral disease that can be prevented by vaccination.</td>
+            <td><a href="https://www.who.int/health-topics/measles">WHO</a></td>
+        <tr>
+            <td>Polio</td>
+            <td>A highly infectious viral disease that primarily affects children and can cause paralysis.</td>
+            <td><a href="https://www.who.int/health-topics/poliomyelitis">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Rabies</td>
+            <td>A viral disease that causes inflammation of the brain in humans and other mammals.</td>
+            <td><a href="https://www.who.int/health-topics/rabies">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Zika Virus</td>
+            <td>A mosquito-borne flavivirus that was first identified in Uganda in 1947 in monkeys.</td>
+            <td><a href="https://www.who.int/health-topics/zika-virus-disease">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Ebola Virus</td>
+            <td>A severe, often fatal illness in humans caused by the Ebola virus.</td>
+            <td><a href="https://www.who.int/health-topics/ebola-virus-disease">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Yellow Fever</td>
+            <td>A viral disease transmitted by mosquitoes, causing fever, chills, and jaundice.</td>
+            <td><a href="https://www.who.int/health-topics/yellow-fever">WHO</a></td>
+        <tr>
+            <td>Leprosy</td>
+            <td>A chronic infectious disease caused by Mycobacterium leprae, affecting the skin, peripheral nerves, and mucosa of the upper respiratory tract.</td>
+            <td><a href="https://www.who.int/health-topics/leprosy">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Plague</td>
+            <td>A disease caused by the bacterium Yersinia pestis, typically transmitted through the bite of an infected flea.</td>
+            <td><a href="https://www.who.int/health-topics/plague">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Chikungunya</td>
+            <td>A viral disease transmitted to humans by infected mosquitoes, causing fever and severe joint pain.</td>
+            <td><a href="https://www.who.int/health-topics/chikungunya">WHO</a></td>
+        </tr>
+        <tr>
+            <td>Hantavirus</td>
+            <td>A group of viruses spread mainly by rodents, causing varied disease syndromes in people worldwide.</td>
+            <td><a href="https://www.who.int/health-topics/hantavirus">WHO</a></td>
+        </tr>
+        <tr>
+            <td>West Nile Virus</td>
+            <td>A mosquito-borne virus that can cause neurological disease and death in people.</td>
+            <td><a href="https://www.who.int/health-topics/west-nile-virus">WHO</a></td>
+            </tr>
+            <tr>
+                <td>Lyme Disease</td>
+                <td>A bacterial infection you get from the bite of an infected black-legged tick.</td>
+                <td><a href="https://www.who.int/health-topics/lyme-disease">WHO</a></td>
+            </tr>
+            <tr>
+                <td>Avian Influenza</td>
+                <td>Infection with avian (bird) influenza (flu) A viruses.</td>
+                <td><a href="https://www.who.int/health-topics/avian-influenza">WHO</a></td>
+            </tr>
+            <tr>
+                <td>Monkeypox</td>
+                <td>A viral zoonotic disease that occurs primarily in tropical rainforest areas of Central and West Africa.</td>
+                <td><a href="https://www.who.int/health-topics/monkeypox">WHO</a></td>
+            </tr>
+            <tr>
+                <td>Norovirus</td>
+                <td>A very contagious virus that causes vomiting and diarrhea.</td>
+                <td><a href="https://www.who.int/health-topics/norovirus">WHO</a></td>
+            </tr>
+            <tr>
+                <td>Rotavirus</td>
+                <td>A virus that causes gastroenteritis, especially in young children.</td>
+                <td><a href="https://www.who.int/health-topics/rotavirus">WHO</a></td>
+            </tr>
+            <tr>
+                <td>Common Cold</td>
+                <td>A viral infection of your nose and throat (upper respiratory tract).</td>
+                <td><a href="https://www.google.com/search?q=common+cold">Google</a></td>
+            </tr>
+            <td><a href="https://www.who.int/health-topics/west-nile-virus">WHO</a></td>
+        </tr>
+        </tr>
+        </tr>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

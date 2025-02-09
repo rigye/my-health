@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tips</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+               nav {
+            background-color: #f8f8f8;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .tip {
+            border: 1px solid #524343;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(22, 21, 21, 0.1);
+            background-color: #faf9f9;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #748696;
+        }
+        .filter {
+            margin-bottom: 20px;
+        }
+        .tip {
+            margin-bottom: 20px;
+        }
+        .learn-more {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        nav {
+            background-color: #f8f8f8;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav .logo h1 {
+            display: inline;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+           footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+    </head>
+    <body>
+        <nav>
+        <div class="logo">
+            <h1>HealthInfo</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="health-tips.html">Health Tips</a></li>
+            <li><a href="Data.html"><i class="fa-solid fa-bars"></i>Data</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Emergencies.html">Emergencies</a></li>
+        </ul>
+        </nav>
+    <h1>Health Tips Across the World</h1>
+    <div id="tips">
+        <div class="tip" data-type="diet">
+            <h2>Healthy Eating</h2>
+            <p>Eat a variety of foods to ensure you get all the necessary nutrients.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="exercise">
+            <h2>Regular Exercise</h2>
+            <p>Engage in at least 30 minutes of moderate physical activity most days of the week.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="mental-health">
+            <h2>Mental Well-being</h2>
+            <p>Practice mindfulness and stress-relief techniques to maintain mental health.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="disease">
+            <h2>Understanding Diabetes</h2>
+            <p>Diabetes is caused by either the pancreas not producing enough insulin or the body's cells not responding properly to insulin.</p>
+            <a href="Data.html">Learn More</a>
+        <div class="tip" data-type="disease">
+            <h2>Understanding Hypertension</h2>
+            <p>Hypertension, or high blood pressure, can be caused by factors such as genetics, poor diet, lack of exercise, and stress.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="disease">
+            <h2>Understanding Asthma</h2>
+            <p>Asthma is a chronic condition that can be triggered by allergens, pollution, respiratory infections, and physical activity.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="disease">
+            <h2>Understanding Heart Disease</h2>
+            <p>Heart disease can be caused by factors such as high cholesterol, high blood pressure, smoking, and obesity.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="disease">
+            <h2>Understanding Cancer</h2>
+            <p>Cancer can be caused by genetic mutations, exposure to carcinogens, and lifestyle factors such as smoking and diet.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="disease">
+            <h2>Understanding Alzheimer's Disease</h2>
+            <p>Alzheimer's disease is a progressive neurological disorder that can be influenced by genetics, age, and lifestyle factors.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="mental-health">
+            <h2>Mental Well-being</h2>
+            <p>Practice mindfulness and stress-relief techniques to maintain mental health.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="mental-health">
+            <h2>Mental Well-being</h2>
+            <p>Practice mindfulness and stress-relief techniques to maintain mental health.</p>
+            <a href="Data.html">Learn More</a>
+        </div>
+        <div class="tip" data-type="mental-health">
+            <div class="tip" data-type="disease">
+                <h2>Understanding Tuberculosis</h2>
+                <p>Tuberculosis is an infectious disease that primarily affects the lungs and is caused by the bacterium Mycobacterium tuberculosis.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Understanding Malaria</h2>
+                <p>Malaria is a life-threatening disease caused by parasites that are transmitted to people through the bites of infected female Anopheles mosquitoes.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Understanding HIV/AIDS</h2>
+                <p>HIV is a virus that attacks the body's immune system, and if not treated, it can lead to AIDS (Acquired Immunodeficiency Syndrome).</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Understanding Influenza</h2>
+                <p>Influenza, commonly known as the flu, is a contagious respiratory illness caused by influenza viruses.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Understanding Hepatitis</h2>
+                <p>Hepatitis is an inflammation of the liver, commonly caused by viral infections, but also by other factors such as alcohol consumption and certain medications.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Understanding COVID-19</h2>
+                <p>COVID-19 is a respiratory illness caused by the coronavirus SARS-CoV-2, leading to symptoms ranging from mild to severe respiratory issues.</p>
+                <a href="Data.html">Learn More</a>
+            <div class="tip" data-type="disease">
+                <h2>Understanding Ebola</h2>
+                <p>Ebola is a rare but severe viral hemorrhagic fever that affects humans and nonhuman primates, caused by the Ebola virus.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Understanding Zika Virus</h2>
+                <p>Zika virus is primarily spread through mosquito bites and can cause birth defects if contracted during pregnancy.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Understanding Dengue Fever</h2>
+                <p>Dengue fever is a mosquito-borne viral infection causing flu-like symptoms and, in severe cases, can lead to dengue hemorrhagic fever.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Understanding Lyme Disease</h2>
+                <p>Lyme disease is a tick-borne illness caused by the bacterium Borrelia burgdorferi, leading to symptoms such as fever, headache, and a characteristic skin rash.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Causes and Symptoms of Diabetes</h2>
+                <p><strong>Causes:</strong> Genetics, obesity, lack of exercise, poor diet.</p>
+                <p><strong>Symptoms:</strong> Increased thirst, frequent urination, extreme fatigue, blurred vision.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Causes and Symptoms of Hypertension</h2>
+                <p><strong>Causes:</strong> Genetics, high salt intake, lack of physical activity, stress.</p>
+                <p><strong>Symptoms:</strong> Often asymptomatic, headaches, shortness of breath, nosebleeds.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Causes and Symptoms of Asthma</h2>
+                <p><strong>Causes:</strong> Allergens, pollution, respiratory infections, physical activity.</p>
+                <p><strong>Symptoms:</strong> Wheezing, shortness of breath, chest tightness, coughing.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Causes and Symptoms of Heart Disease</h2>
+                <p><strong>Causes:</strong> High cholesterol, high blood pressure, smoking, obesity.</p>
+                <p><strong>Symptoms:</strong> Chest pain, shortness of breath, pain in the neck, jaw, throat.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Causes and Symptoms of Cancer</h2>
+                <p><strong>Causes:</strong> Genetic mutations, exposure to carcinogens, lifestyle factors.</p>
+                <p><strong>Symptoms:</strong> Unexplained weight loss, fatigue, pain, skin changes.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Causes and Symptoms of Alzheimer's Disease</h2>
+                <p><strong>Causes:</strong> Genetics, age, lifestyle factors.</p>
+                <p><strong>Symptoms:</strong> Memory loss, confusion, difficulty with language, mood changes.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="disease">
+                <h2>Human Activities Leading to Increased Disease</h2>
+                <p><strong>Deforestation:</strong> Loss of natural habitats can lead to increased contact between humans and disease-carrying animals.</p>
+                <p><strong>Urbanization:</strong> High population density in urban areas can facilitate the spread of infectious diseases.</p>
+                <p><strong>Pollution:</strong> Air and water pollution can contribute to respiratory and waterborne diseases.</p>
+                <p><strong>Climate Change:</strong> Changes in climate can expand the range of disease vectors such as mosquitoes.</p>
+                <p><strong>Global Travel:</strong> Increased travel can lead to the rapid spread of diseases across borders.</p>
+                <a href="Data.html">Learn More</a>
+            </div>
+            <div class="tip" data-type="habits">
+                <h2>Healthy Habits</h2>
+                <p>Adopting healthy habits can significantly improve your overall well-being. Here are some key habits to consider:</p>
+                <ul>
+                    <li><strong>Balanced Diet:</strong> Eat a variety of foods, including plenty of fruits and vegetables, lean proteins, and whole grains.</li>
+                    <li><strong>Regular Exercise:</strong> Engage in at least 30 minutes of moderate physical activity most days of the week.</li>
+                    <li><strong>Hydration:</strong> Drink plenty of water throughout the day to stay hydrated.</li>
+                    <li><strong>Sleep:</strong> Aim for 7-9 hours of quality sleep each night.</li>
+                    <li><strong>Mental Health:</strong> Practice mindfulness, stress-relief techniques, and seek support when needed.</li>
+                    <li><strong>Avoid Harmful Substances:</strong> Limit alcohol consumption, avoid smoking, and stay away from illicit drugs.</li>
+                    <li><strong>Regular Check-ups:</strong> Visit your healthcare provider for regular check-ups and screenings.</li>
+                    <li><strong>Hygiene:</strong> Maintain good personal hygiene, including regular handwashing and dental care.</li>
+                </ul>
+                <a href="Data.html">Learn More</a>
+            </div>
+            
+    <script>
+        function filterTips() {
+            const type = document.getElementById('type').value;
+            const tips = document.querySelectorAll('.tip');
+            tips.forEach(tip => {
+                if (type === 'all' || tip.getAttribute('data-type') === type) {
+                    tip.style.display = 'block';
+                } else {
+                    tip.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
